@@ -27,28 +27,27 @@ const Collection = ({ list }) => {
             <div>All collections in Delhi</div>
             <FaCaretRight className="absolute-center" />
           </div>
-          </div>
-          <Slider {...settings}>
-            {list.map((item) => (
-              <div>
-                <div className="collection-cover">
-                  <img
-                    src={item.cover}
-                    className="collection-image"
-                    alt={item.title}
-                  />
-                  <div className="gradient-bg"></div>
-                  <div className="collection-card-title">{item.title}</div>
-                  <div className="collection-card-subtitle">
-                    <div>{item.places}</div>
-                    <FaCaretRight className="absolute-center" />
-                  </div>
+        </div>
+        <Slider {...settings}>
+          {list.map((item) => (
+            <div>
+              <div className="collection-cover">
+                <img
+                  src={item.cover}
+                  className="collection-image"
+                  alt={item.title}
+                />
+                <div className="gradient-bg"></div>
+                <div className="collection-card-title">{item.title}</div>
+                <div className="collection-card-subtitle">
+                  <div>{item.places}</div>
                 </div>
               </div>
-            ))}
-          </Slider>
-        </div>
+            </div>
+          ))}
+        </Slider>
       </div>
+    </div>
   );
 };
 

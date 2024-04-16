@@ -2,8 +2,9 @@
     margin: 12px 0px 24px 0px;
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid transparent;
+    border: 1px solid transparent; 
 }
+
 
 .explore-card-cover{
     height: 248px;
@@ -120,7 +121,7 @@
 }
 
 .res-cuisine-tag{
-    margin-right: 40px;
+    margin-right: 4px;
     color: var(--inactive-text);
 }
 
